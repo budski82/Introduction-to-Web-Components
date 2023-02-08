@@ -1,1 +1,5 @@
 @use './mixins/display-center.scss' as *;
+
+body {
+	@include center-content()
+}

@@ -1,6 +1,8 @@
+
 @mixin center-content(){
 	display:grid; height: 100vh;
 	place-items: center; background:linear-gradient(
 		to bottom right, #323 20%, #768 80%
 	);
+	text-align: center; font: 700 1.2rem sans-serif;
 }
